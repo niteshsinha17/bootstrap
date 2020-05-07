@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - master
-  pull_request:
+      - master-xmr-rd
 
 jobs:
   update_release_draft:
