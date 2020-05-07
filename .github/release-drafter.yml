@@ -1,6 +1,9 @@
 name-template: 'v$NEXT_MAJOR_VERSION'
 tag-template: 'v$NEXT_MAJOR_VERSION'
 prerelease: true
+branches:
+  - master
+  - v4-dev
 exclude-labels:
   - 'skip-changelog'
 categories:
